@@ -22,9 +22,9 @@
 **Screenshot**
 ![Screenshot of front page](https://github.com/jchoe125/Web-APIs---Code-Quiz/blob/main/Images/Front%20Page.JPG)
 ![Screenshot of high score page](https://github.com/jchoe125/Web-APIs---Code-Quiz/blob/main/Images/High%20Score%20Page.JPG)
-![Screenshot of incorrect page] (https://github.com/jchoe125/Web-APIs---Code-Quiz/blob/main/Images/Incorrect%20Page.JPG)
-![Screenshot of question page] (https://github.com/jchoe125/Web-APIs---Code-Quiz/blob/main/Images/Question%20Page.JPG)
-![Screenshot of saved score page] (https://github.com/jchoe125/Web-APIs---Code-Quiz/blob/main/Images/Score%20Page.JPG)
+![Screenshot of incorrect page](https://github.com/jchoe125/Web-APIs---Code-Quiz/blob/main/Images/Incorrect%20Page.JPG)
+![Screenshot of question page](https://github.com/jchoe125/Web-APIs---Code-Quiz/blob/main/Images/Question%20Page.JPG)
+![Screenshot of saved score page](https://github.com/jchoe125/Web-APIs---Code-Quiz/blob/main/Images/Score%20Page.JPG)
 
 **Link to deployed application**
 URL of deployed application: https://jchoe125.github.io/Web-APIs---Code-Quiz/
