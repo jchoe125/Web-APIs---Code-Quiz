@@ -13,7 +13,7 @@ var questionBank = [
     {
         title: "Which type of network consensus protocol does the Bitcoin blockchain use?",
         choices: ["proof-of-stake", "proof-of-work", "proof-of-space", "proof-of-elapsed-time"],
-        answer: 2,
+        answer: 1,
     },
     {
         title: "How many Bitcoin tokens will ever be created?",
@@ -77,8 +77,6 @@ function showQ(idx) {
             var currCText = document.createTextNode(currQ.choices[i]);
             currCli.appendChild(currCText);
             currCli.onclick = function() {
-                console.log(i);
-                console.log(currQ.answer);
                 if (i === currQ.answer) {
                     score++;
                     alert("You are correct!");

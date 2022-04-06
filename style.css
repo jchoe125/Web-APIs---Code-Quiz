@@ -1,29 +1,7 @@
-/*
-classes used: 
-container
-header.
-viewScores
-info
-intro
-description
-
-ids used:
-time
-highscores
-startButton
-quiz-questionnaire
-results
-form
-final score
-initials
-submit
-*/
-
 * {
     box-sizing: border-box;
     padding: 0;
     margin: auto;
-    display
 }
 
 body {
