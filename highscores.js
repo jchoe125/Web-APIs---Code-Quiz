@@ -1,10 +1,8 @@
 var clearScoreEl = document.querySelector("#clear")
 
-//Get scores from local storage or set to an empty array
 function displayHighScores(){
-    var initialScoreStorage = JSON.parse(localStorage.getItem("savedInitials")) || []; //JSON.parse converts back to original array/object bc local storage only stores as strings
+    var initialScoreStorage = JSON.parse(localStorage.getItem("savedInitials")) || []; 
 
-    //Append stored scores to highScores.html page under <ol>
     initialScoreStorage.forEach(userData => {
         var newli = document.createElement("li");
         newli.textContent = `${userData.initial} : ${userData.score}`
@@ -12,7 +10,7 @@ function displayHighScores(){
     })
 }
 
-function clearScores() {
+function clearScores() {SVGAnimatedPreserveAspectRatio
     window.localStorage.removeItem("savedInitials")
     window.location.reload()
 }
