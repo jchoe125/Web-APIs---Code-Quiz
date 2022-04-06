@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <label class="headersection"><a href="" id="highScores">View Scores</a></label>
+            <label class="headersection"><a href="./highscores.html" id="highScores">View Scores</a></label>
             <label class="headersection" id="time">Time Remaining: <span id="countDown"></span>
             </label>
         </div>
@@ -23,20 +23,26 @@
             <button class="startButton">Start Quiz</button>
         </div>
 
-        <div id="questionnaire" class = "hide">
-            <h2 id="question-title"></h2>
-            <div id="choices" class="choices"></div>
-        </div>
+        <div id="questionnaire"></div>
 
-        <div id="results">
+        <div id="results" hidden>
             <h2>All done!</h2>
             <p>Your final score is <span id="finalScore"></span></p>
+            <form id="form">
+                <input type="text" name="initials" id="initials" placeholder="Enter your initials">
+                <input type="submit" value="Submit" id="submitButton">
+            </form>
         </div>
-        <form id="form">
-            <input type="text" name="initials" id="initials">
-            <input type="submit" value="Submit" id="submitButton">
-        </form>
+
     </div>
+
+    <div id="scoreCard" class = "hide">
+        <header>
+            <h1>Top 10 High Scores</h1>
+        </header>
+        <button id="backBtn" type="button" class="btn">Go Back</button>
+    </div>
+
     <script src="./script.js"></script>
 </body>
 </html>
