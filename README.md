@@ -27,5 +27,5 @@
 ![Screenshot of saved score page](https://github.com/jchoe125/Web-APIs---Code-Quiz/blob/main/Images/Score%20Page.JPG)
 
 **Link to deployed application**
-URL of deployed application: https://jchoe125.github.io/Web-APIs---Code-Quiz/
-URL of Github repository: https://github.com/jchoe125/Web-APIs---Code-Quiz
+* URL of deployed application: https://jchoe125.github.io/Web-APIs---Code-Quiz/
+* URL of Github repository: https://github.com/jchoe125/Web-APIs---Code-Quiz
